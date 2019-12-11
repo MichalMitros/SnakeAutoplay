@@ -1,7 +1,7 @@
 let scl;
 let game;
 let speed = 1;
-let fps = 10;
+let fps = 60;
 
 function setup() {
   createCanvas(window.innerWidth, window.innerHeight);
