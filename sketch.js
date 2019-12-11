@@ -69,5 +69,8 @@ function keyPressed() {
     } else if(fps > 10) {
       fps -= 10;
     }
+  } else if(key == '0') {
+    speed = 1;
+    fps = 60;
   }
 }
